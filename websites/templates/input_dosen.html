@@ -1,0 +1,22 @@
+{% extends 'templates/sidebar.html' %}
+
+{% block body %}
+<div class="col-6 grid-margin mt-4 justify-content-end center">
+  <div class="card ">
+    <div class="card-body">
+      <h3 class="text-center">Input Dosen</h3>
+      <form class="forms-sample">
+        <div class="form-group">
+          <label for="kode">Kode Dosen</label>
+          <input type="text" class="form-control" id="kode" placeholder="Kode">
+        </div>
+        <div class="form-group">
+          <label for="name">Nama Dosen</label>
+          <input type="text" class="form-control" id="name" placeholder="Nama">
+        </div>
+        <button type="submit" class="btn btn-primary me-2">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}
